@@ -1,0 +1,20 @@
+.follow {
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.follow:hover {
+   background-color: blue;
+
+}
+
+.profile:hover {
+   filter: invert(100%);
+}
+
+.followerText {
+   text-align: center;
+   color: #fff;
+}
+
+

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.instagram-font {
+    font-family: Cookie, cursive;
+}
+
+
+.bg-blue-inst {
+    background: #005c98;
+}
+
+.text-blue-inst {
+    color: #005c98;
+}
+
+
+
+body{
+    background:url(/public/images/photo-1633886038302-9710437f6ca2.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-group {
+    position:relative;
+}
+
+.input-group label {
+    padding:0 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: grey;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    text-transform: capitalize;
+    pointer-events: none;
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+
+  .input-group input {
+    padding: 18px 15px;
+    width: 300px;
+    border: 3px solid #fff;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    font-family:inherit;
+    background-color: transparent;
+    border-radius:10px;
+  }
+
+  .input-group .signUpInput {
+    margin: 10px 0;
+    padding: 18px 15px;
+    width: 370px;
+    border: 3px solid #fff;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    font-family:inherit;
+    background-color: transparent;
+    border-radius:10px;
+  }
+
+  .input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+  top:0;
+  font-size:16px;
+}
+
+
+.instaConteiner {
+    border-radius: 20px;
+    background-color: #d4ecfb;
+    width: 350px;
+}
+
+.instaFooter {
+    background-color: #d4ecfb;
+    border-radius: 10px;
+}
+
+.instaSignUp {
+    background-color: #d4ecfb;
+    border-radius: 10px;
+}
+
+.footerDes {
+    font-weight: bold;
+}
+
+.forgot {
+    font-weight: 250;
+}
+
+.login:hover {
+    background-color: #005;
+}

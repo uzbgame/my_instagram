@@ -1,0 +1,6 @@
+.bagground{
+    background:url(/public/images/images.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400&family=Raleway:wght@500&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-logo{
+    font-family: Cookie, cursive;
+    font-size: 32px;
+}
+
+.navbar-logo a p h1 {
+    color: #fff;
+}
+
+.bg-blue-inst {
+    background: #005c98;
+}
+
+.text-blue-inst {
+    color: #005c98;
+}
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#light {
+    background-color: #f3ebf6;
+}
+
+#dark {
+    background-color: #999;
+  }
+
+  #light .main {
+    background-color: #fff;
+  }
+  
+  #dark .main {
+    background-color: #999;
+  }
+
+  #light .sign {
+    color: #000;
+  }
+  
+  #dark .sign {
+    color: #fff;
+  }
+
+.searchCon {
+    width: 235px; 
+}
+
+.search {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    transition-duration: 600ms;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid white;
+    overflow: hidden;
+    background-image: url('./icons8-search.svg');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 90% 50%;
+}
+
+.search:hover {
+    border: 1px solid #fff;
+}
+
+.search:focus {
+    width: 235px;
+    cursor: text;
+    padding-left: 40px;
+    color: #fff;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    background: url('./icons8-search.svg') no-repeat;
+    background-size: 22px;
+    background-position: 10px 50%;
+}
+
+.navbarCon {
+    width: 250px;
+    height: 200px;
+}
+
+.imgAva {
+    margin-top: 10px;
+    margin-left: 20px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.userName {
+    margin-left: 18px;
+     margin-top: 10px;
+    font-size: 15px;
+}
+
+.logo {
+    background-color: transparent;
+    fill: #FFFFFF;
+    color: #fff;
+    background-color: transparent;
+    /* visibility: hidden; */
+    filter: invert(100%);
+    /* opacity: 0.0 - 1.0; */
+    /* position: absolute; */
+    font-size: 20px;
+    height: 50px;
+}
+
+.icon {
+    color: #ffffff;
+}
+
+.followersCon {
+    border-radius: 20px;
+    background-color: transparent;
+    width: 60%;
+    
+}
+
+.followerText {
+    text-align: right;
+}
+
+
+.followersText {
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col-span {
+   width: 80%;
+   height: 500px;
+}
+
+.home {
+    width: 100%;
+   
+}
+
+.emojiCon {
+    width: 30px;
+    height: 100px;
+}
+
+.emojiBor {
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #005c98;
+}
+
+.like {
+    border: none;
+    font-weight: 100;
+}
+
+.navbarIcons {
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.direct{
+    margin-top: 4;
+    margin-right: 15px;
+}
+
+.itemComment {
+    font-weight: 200;
+}
+
+.navbarIcons::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,rgb(132, 129, 129),grey);
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(100%,100%);
+    transition: all .4s;
+}
+
+.navbarIcons:hover::before{
+    transform: translate(0);
+    animation: anim .4s linear;
+}
+
+@keyframes anim{
+    0%,100%{
+        width: 100%;
+        height: 100%;
+    }
+    50%{
+        width: 50%;
+        height: 50%;
+    }
+}

@@ -1,0 +1,27 @@
+.image{
+    max-height: 570px;
+    max-width: 570px;
+    width: 100%;
+    height: 100%;
+}
+
+.caption-textarea{
+    background: transparent;
+    border: none;
+    overflow: auto;
+    resize: none;
+    padding: 4px;
+}
+
+.caption-textarea:focus { 
+    outline: none !important;
+    border-color: none;
+}
+
+
+body{
+    background:url(/public/images/photo-1633886038290-6023143cd3ba.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

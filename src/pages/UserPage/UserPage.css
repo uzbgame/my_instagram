@@ -1,0 +1,43 @@
+
+body{
+    background:url(/public/images/photo-1633886038290-6023143cd3ba.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:100vh;
+}
+
+.userCon {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-image: url('../../components/profile/abstract-dark-background-with-flowing-colouful-waves.jpg');
+    background-size: cover;
+}
+
+.buttonHover:hover {
+    background-color: blue;
+}
+
+.imgUser {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 3px;
+    margin: 10px 80px;
+}
+
+.settingsName {
+    color: #fff;
+    margin: 10px 80px;
+}
+
+.imgAvatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid red;
+    padding: 3px;
+    
+}

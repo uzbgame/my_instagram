@@ -1,0 +1,150 @@
+.comment-input:focus {
+    outline: none !important;
+    border-color: none;
+}
+
+
+body{
+    background:url(/public/images/photo-1633886038290-6023143cd3ba.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.unfollow {
+    background-color: blue;
+}
+
+.unfollow:hover {
+    background-color: rgb(48, 48, 245);
+}
+
+.profile:hover {
+    filter: invert(100%);
+}
+
+input[type="file"].custom {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .profile-badge{
+    border:1px solid #c1c1c1;
+    padding:5px;
+    position: relative;
+}
+
+.user-detail{
+    background-color: #fff;
+    position: relative;
+    padding:115px 0px 10px 0px;
+    color:#8B8B89;
+}
+.user-detail h3{
+    margin: 0px;
+    margin:0px 0px 5px 0px;
+    color: #000;
+}
+.user-detail p{
+    font-size:14px;
+}
+.user-detail .btn{
+    margin-bottom:10px;
+    background-color: #fff;
+    border:1px solid #DEDEDE;
+    border-radius: 0px;
+    color:black;
+}
+.user-detail .btn i{
+    color:#D35B4D;
+    padding-right:18px;
+}
+.profile-pic{
+    position: absolute;
+    height:120px;
+    width:120px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    z-index: 1001;
+    padding: 10px;
+}
+
+.profile-pic img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #c1c1c1;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}   
+
+.emojiCon {
+    width: 400px;
+    height: 180px;
+    margin-left: -10px;
+}
+
+.emojiConDiv {
+  
+}
+
+.emojiCon  .emojiConEmoji:hover{
+    border-radius: 50%;
+    background-color: #999;
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+}
+
+.buttonSave {
+    background-color: green;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.buttonClose {
+    background-color: red;
+    padding: 0 20px;
+    border-radius: 5px;
+    margin-right: -5px;
+    color: #fff;
+}
+
+.updateH {
+   margin-bottom: 5px;
+}
+
+.uploadPhoto {
+    background-color: #fff;
+    
+    width: 240px;
+    /* height: 30px; */
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 600ms;
+    cursor: pointer;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.uploadPhoto:hover {
+    background-color: rgb(184, 184, 184);
+    width: 300px;
+    cursor: text;
+    padding-left: 40px;
+    color: #fff;
+
+    background-color: transparent;
+}
+
+.background {
+    background-image: url('../profile/abstract-dark-background-with-flowing-colouful-waves.jpg');
+    background-size: cover;
+}
